@@ -169,6 +169,7 @@
     .tier.elite { border-color: var(--accent); }
     .tier.high { border-color: var(--accent-blue); }
     .tier.standard { border-color: var(--accent-yellow); }
+    .tier.playable { border-color: #8b949e; }
     
     .tier-badge { font-size: 2rem; margin-bottom: 10px; }
     .tier-name { font-weight: 700; margin-bottom: 10px; color: var(--text); }
@@ -450,6 +451,13 @@ Conservative 1%: *$1.00*
           <div class="tier-spec">3+ books</div>
           <div class="tier-spec">&lt;48h to game</div>
         </div>
+        <div class="tier playable">
+          <div class="tier-badge">⚪</div>
+          <div class="tier-name">C Playable</div>
+          <div class="tier-spec">2%+ EV</div>
+          <div class="tier-spec">3+ books</div>
+          <div class="tier-spec">&lt;48h to game</div>
+        </div>
       </div>
     </section>
 
@@ -460,7 +468,7 @@ Conservative 1%: *$1.00*
       <h3>Using Inline Keyboards</h3>
       <p>After a scan, you'll see filter buttons:</p>
       <div class="code-block">┌─────────────────────────────────────────┐
-│ 🟢 A+ (2)  │  🔵 A (3)  │  🟡 B (5)    │  ← Tier
+│ 🟢 A+ (2) │ 🔵 A (3) │ 🟡 B (5) │ ⚪ C (7) │  ← Tier
 │ 🎯 ML  │  📊 Spread  │  📈 Total     │  ← Market
 │ NBA  │  MLB  │  NHL  │  EPL          │  ← Sport
 │      🔄 Re-scan      │  📤 Export     │  ← Actions
@@ -784,8 +792,12 @@ Minimum 10 signals to qualify</div>
     <section id="best-practices" class="section">
       <h2>12. Best Practices</h2>
       
-      <h3>1. Only Bet A+ and A Signals</h3>
-      <p>B signals are playable but lower EV. Stick to A+ and A for best long-term results.</p>
+      <h3>1. Tier Selection Strategy</h3>
+      <p><strong>A+ Elite (8%+ EV):</strong> Bet these every time. Ultra-rare, highest confidence.</p>
+      <p><strong>A High (6%+ EV):</strong> Strong plays. Bet with confidence.</p>
+      <p><strong>B Standard (4%+ EV):</strong> Sharp signals. Playable, good for volume.</p>
+      <p><strong>C Playable (2%+ EV):</strong> Professional-level volume betting. Use for building action or when you need more opportunities. Still +EV, but lower margin.</p>
+      <p style="margin-top: 10px;"><strong>Recommendation:</strong> Start with A+ and A only. Add B and C as you build bankroll and want more volume.</p>
 
       <h3>2. Use Book Filters</h3>
       <p>Set <span class="command">/setbooks</span> to your actual books. No point seeing signals you can't bet.</p>
