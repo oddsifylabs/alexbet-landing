@@ -1,0 +1,12 @@
+{
+  "name": "alexbet-landing",
+  "version": "1.0.0",
+  "description": "AlexBET Signal Pro landing page and documentation",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
